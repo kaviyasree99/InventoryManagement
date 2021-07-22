@@ -1,0 +1,26 @@
+package com.model;
+
+public class rice {
+	String name;
+	long Weight;
+	long pricePerKg;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public long getWeight() {
+		return Weight;
+	}
+	public void setWeight(long weight) {
+		Weight = weight;
+	}
+	public long getPricePerKg() {
+		return pricePerKg;
+	}
+	public void setPricePerKg(long pricePerKg) {
+		this.pricePerKg = pricePerKg;
+	}
+
+}
